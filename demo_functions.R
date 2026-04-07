@@ -22,5 +22,6 @@ gen_lin_norm_dat <- function(m, # the slope
   n <- length(x)
   e <- rnorm(n, 0, sd = sigma)
   out <- y + e
-  return(out) # returns 
+  
+  return(out) # returns ???
 }
